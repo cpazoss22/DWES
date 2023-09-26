@@ -1,0 +1,8 @@
+Capitulo 1: Introducción a git
+Capitulo 2: Flujo de trabajo básico
+Cpaitulo 3: Repositorios remotos
+
+
+
+
+git status
