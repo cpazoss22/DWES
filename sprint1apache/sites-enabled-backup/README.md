@@ -1,1 +1,1 @@
-"Este directorio contiene backups de los archivos de configuración de los virtual hosts"
+Este directorio contiene backups de los archivos de configuracion de los virtual hosts
