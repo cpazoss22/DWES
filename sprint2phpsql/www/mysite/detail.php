@@ -13,10 +13,10 @@
 	$query = 'SELECT * FROM tJuegos WHERE id='.$id;
 	$result = mysqli_query($db, $query) or die('Query error');
 	$only_row = mysqli_fetch_array($result);
-	echo '<img src=''' .$only_row['url_imagen'] . '"id="game-image"/>';
-	echo "<h1>" .$only_row['nombre'] ."</h1>";
-    	echo '<p>' .$only_row['genero'] ."</p>";
-	echo '<p>' .$only_row['precio'] ."</p>";
+	echo '<img src="'  . $only_row['url_imagen'] .'" id="game-image"/>';
+	echo '<h1>'  . $only_row['nombre']  . '</h1>';
+    	echo '<p>' . $only_row['genero'] . '</p>';
+	echo '<p>' . $only_row['precio'] . '</p>';
 	?>
     <h3>Comentarios:</h3>
     <ul>
