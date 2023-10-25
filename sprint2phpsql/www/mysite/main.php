@@ -1,6 +1,25 @@
 <html>
 <head>
 <style>
+h1{
+font-size:40px;
+font-family:Arial Black, Gadget, sans-serif;
+text-align:center;
+}
+
+table{
+font-family:Arial, sans-serif;
+border-collapse: collapse;
+width: 235%;
+borde: 2px solid #dddd;
+}
+
+th,td{
+border:2px solid #dddd;
+text-align:left;
+padding:15px;
+}
+
 th{
 	background-color:#f5f2f3;
 }
